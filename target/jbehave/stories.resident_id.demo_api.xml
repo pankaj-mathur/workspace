@@ -1,0 +1,64 @@
+<story path="stories/resident_id/demo_api.story" title="">
+<scenario keyword="Scenario:" title="Verifu tha twe can find the country using country code">
+<meta>
+<property keyword="@" name="issue" value="#EE-89"/>
+</meta>
+<examples keyword="Examples:">
+<step>Given the user try to call API to find country using country code [countryCode]</step>
+<step>When the user search is executed successfully</step>
+<step>Then user should find country [countryName]</step>
+<parameters>
+<names><name>countryCode</name><name>countryName</name></names>
+<values><value>BR</value><value>Brazil</value></values>
+<values><value>IN</value><value>India</value></values>
+<values><value>US</value><value>United States of America</value></values>
+</parameters>
+
+<example keyword="Example:">{countryCode=BR, countryName=Brazil, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+
+<example keyword="Example:">{countryCode=IN, countryName=India, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+
+<example keyword="Example:">{countryCode=US, countryName=United States of America, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+</examples>
+</scenario>
+<scenario keyword="Scenario:" title="Verifu tha twe can find the country using country code">
+<meta>
+<property keyword="@" name="issue" value="#EE-89"/>
+</meta>
+<examples keyword="Examples:">
+<step>Given the user try to call API to find country using country code [countryCode]</step>
+<step>When the user search is executed successfully</step>
+<step>Then user should find country [countryName]</step>
+<parameters>
+<names><name>countryCode</name><name>countryName</name></names>
+<values><value>BR</value><value>Brazil</value></values>
+<values><value>IN</value><value>India</value></values>
+<values><value>US</value><value>United States of America</value></values>
+</parameters>
+
+<example keyword="Example:">{countryCode=BR, countryName=Brazil, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+
+<example keyword="Example:">{countryCode=IN, countryName=India, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+
+<example keyword="Example:">{countryCode=US, countryName=United States of America, issue=#EE-89}</example>
+<step outcome="successful">Given the user try to call API to find country using country code [countryCode]</step>
+<step outcome="successful">When the user search is executed successfully</step>
+<step outcome="successful">Then user should find country [countryName]</step>
+</examples>
+</scenario>
+</story>

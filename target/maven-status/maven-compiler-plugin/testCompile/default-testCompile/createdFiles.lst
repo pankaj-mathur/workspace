@@ -1,0 +1,7 @@
+jar/Tests.class
+jar/AcceptanceTestSuite.class
+jar/pages/DictionaryPage.class
+jar/steps/APIDefinitionSteps.class
+jar/steps/DefinitionSteps.class
+jar/steps/serenity/EndUserSteps.class
+jar/steps/serenity/APISteps.class
