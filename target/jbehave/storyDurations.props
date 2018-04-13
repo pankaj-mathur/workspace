@@ -1,6 +1,7 @@
 #org.jbehave.core.embedder.StoryManager
-#Tue Apr 10 14:40:00 BST 2018
+#Fri Apr 13 13:44:04 BST 2018
 threads=1
 total=8000
-stories/resident_id/demo_api.story=8000
+stories/EU\ Exit\ API\ Stories/residents-identity-matching/EE-37-Create-Identity-API-Responses.story=2000
+stories/EU\ Exit\ API\ Stories/residents-identity-matching/EE-35-Create-Identity-API-Server-And-Routes.story=6000
 threadAverage=8000

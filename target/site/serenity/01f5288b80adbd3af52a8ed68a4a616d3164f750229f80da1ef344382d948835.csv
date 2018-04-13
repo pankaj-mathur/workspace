@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Demo api","Verifu tha twe can find the country using country code","SUCCESS","2018-04-10T14:39:59.717+01:00[Europe/London]","0.0","0.89"
+"Ee-35- create- identity-api- server- and- routes","Response when all parameters provided","SUCCESS","2018-04-13T13:43:55.949+01:00[Europe/London]","0.0","6.14"
+"Ee-37- create- identity-api- responses","Customer doesn't match and firstname provided","SUCCESS","2018-04-13T13:44:03.893+01:00[Europe/London]","0.0","0.57"

@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: jar.AcceptanceTestSuite
--------------------------------------------------------------------------------
-Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.561 s - in jar.AcceptanceTestSuite

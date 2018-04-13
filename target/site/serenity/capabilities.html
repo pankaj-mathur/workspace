@@ -49,10 +49,10 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 3],
-                ['Pending', 0],
+                ['Passing', 6],
+                ['Pending', 1],
                 ['Ignored', 0],
-                ['Failing', 0],
+                ['Failing', 2],
                 ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
@@ -82,10 +82,10 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 requirements tested successfully'},
-                {label: '0 requirements pending'},
+                {label: '6 requirements tested successfully'},
+                {label: '1 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '0} requirements with failures'},
+                {label: '2} requirements with failures'},
                 {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
@@ -145,7 +145,7 @@
     <div id="topbanner">
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
-            <span class="projectname">EU Exit API BDD Automation</span>
+            <span class="projectname">EU Exit API BDD Automation ----- Dashborad</span>
         </div>
     </div>
 </div>
@@ -177,7 +177,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-04-2018 14:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 13-04-2018 13:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -210,10 +210,10 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>3</td>
-                                    <td>3</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>9</td>
+                                    <td>6</td>
+                                    <td>2</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -241,31 +241,31 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>3</td>
-            <td>3 (100%)</td>
-            <td>0 (0%)</td>
+            <td>8</td>
+            <td>6 (75%)</td>
+            <td>2 (25%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
-            <td>0</td>
+            <td>1</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>1 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>3</td>
-            <td>3 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>9</td>
+            <td>6 (67%)</td>
+            <td>2 (22%)</td>
+            <td>1 (11%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">1 seconds</td>
+                <td colspan="5">8 seconds</td>
         </tr>
         </body>
     </table>
@@ -300,20 +300,112 @@
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="1441eeb5727a0d5bdaa33881f01caa9e193ba1b5da7d6937dac928b541f49919.html" class="ellipsis"
-                                           title="Verifu tha twe can find the country using country code ">
-                                            Verifu tha twe can find the country using country code&nbsp;(3  examples)
-                                                <span class="related-issue-title">(#<a target="_blank" href="https://jira.dwp.gov.uk/browse/EE-89">EE-89</a>)</span>
+                                        <a href="8c6471658de3437ea70d2061ca11e377bdde7d7aa3f568f0830a068bb1ea524f.html" class="ellipsis"
+                                           title="Response when all parameters provided ">
+                                            Response when all parameters provided&nbsp;(2  examples)
+                                                <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">24</td>
+                                <td class="SUCCESS-text">16</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-04-10 14:39:59">14:39:59</td>
+                                <td class="SUCCESS-text" data-sort="2018-04-13 13:43:55">13:43:55</td>
 
-                                <td class="SUCCESS-text">0.89</td>
+                                <td class="SUCCESS-text">6.14</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="7d5abc37d0bb10c3e1a82a9fd65cbfda97a1f46603282de0ed1d02c58dd5f6fa.html" class="ellipsis"
+                                           title="Customer matches with no first name Assertion error">
+                                            Customer matches with no first name&nbsp;(1  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">6</td>
+
+
+                                <td class="FAILURE-text" data-sort="2018-04-13 13:44:02">13:44:02</td>
+
+                                <td class="FAILURE-text">0.97</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    <i class="fa fa-user manual" title="Manual test"></i>
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="d7b1a5a59d90d7416bda4e6e1839ad4a1c872922112733dd9c555e03dfc5e5ac.html" class="ellipsis"
+                                           title="Customer doesn't match and no firstname provided ">
+                                            Customer doesn't match and no firstname provided&nbsp;(1  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">10</td>
+
+
+                                <td class="PENDING-text" data-sort="2018-04-13 13:44:03">13:44:03</td>
+
+                                <td class="PENDING-text">0.18</td>
+                            </tr>
+
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                                    
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
+                                    <div class="ellipsis">
+
+                                        <a href="bad14c4508bfcb0f2d9814b6019432e3a477a262bf4fbef95fb63ec75d17621f.html" class="ellipsis"
+                                           title="Customer matches and first name provided Assertion error">
+                                            Customer matches and first name provided&nbsp;(1  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="FAILURE-text">6</td>
+
+
+                                <td class="FAILURE-text" data-sort="2018-04-13 13:44:03">13:44:03</td>
+
+                                <td class="FAILURE-text">0.05</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="056d61c19fb886e3d790909ad028892dbec593f939c544ecde23fb6239912580.html" class="ellipsis"
+                                           title="Customer doesn't match and firstname provided ">
+                                            Customer doesn't match and firstname provided&nbsp;(4  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">40</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2018-04-13 13:44:03">13:44:03</td>
+
+                                <td class="SUCCESS-text">0.57</td>
                             </tr>
                         </tbody>
                     </table>
