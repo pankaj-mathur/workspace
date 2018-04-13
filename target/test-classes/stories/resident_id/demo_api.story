@@ -1,4 +1,4 @@
-Scenario: Verifu tha twe can find the country using country code
+Scenario: Verify that we can find the country using country code
 
 Meta:
 @issue #EE-89
@@ -13,7 +13,7 @@ Examples:
 |IN			|India					 |
 |US			|United States of America|
 
-Scenario: Verifu tha twe can find the country using country code
+Scenario: Verify that we can find the country using country code
 
 Meta:
 @issue #EE-89
